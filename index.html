@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALHUA NATURAL - Productos Naturales Artesanales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">ALHUA NATURAL</a>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-alhua">Sobre Alhua</a></li>
+                        <li><a href="#catalogo">Catálogo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>ALHUA NATURAL</h1>
+                        <p>Descubre la belleza natural con nuestros productos artesanales hechos a mano. Libre de químicos dañinos y creados con amor para cuidar tu piel de manera natural y sostenible.</p>
+                        <a href="#" class="btn-ver-catalogo">Ver Catálogo</a>
+                    </div>
+                    <div class="hero-products">
+                        <div class="product-card">
+                            <div class="product-image">
+                                📸 Imagen<br>
+                                <small>Producto</small>
+                            </div>
+                            <div class="product-name">Jabón Natural</div>
+                            <div class="product-price">$2.500</div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                📸 Imagen<br>
+                                <small>Producto</small>
+                            </div>
+                            <div class="product-name">Perfume Artesanal</div>
+                            <div class="product-price">$4.200</div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                📸 Imagen<br>
+                                <small>Producto</small>
+                            </div>
+                            <div class="product-name">Crema Hidratante</div>
+                            <div class="product-price">$3.800</div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                📸 Imagen<br>
+                                <small>Producto</small>
+                            </div>
+                            <div class="product-name">Bálsamo Labial</div>
+                            <div class="product-price">$1.900</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-arrow" onclick="scrollToSection('lineas-productos')"></div>
+        </section>
+
+        <!-- Nuestras Líneas Section -->
+        <section class="lineas-productos" id="lineas-productos">
+            <div class="container">
+                <h2 class="section-title">Nuestras Líneas</h2>
+                <div class="lineas-grid">
+                    <a href="#jabones" class="linea-card">
+                        <div class="linea-image">
+                            <div class="linea-title">Línea de Jabones</div>
+                            📸 Imagen de Jabones<br>
+                            <small>(Placeholder)</small>
+                        </div>
+                        <div class="linea-link">Ver más</div>
+                    </a>
+                    <a href="#perfumes" class="linea-card">
+                        <div class="linea-image">
+                            <div class="linea-title">Línea de Perfumes</div>
+                            📸 Imagen de Perfumes<br>
+                            <small>(Placeholder)</small>
+                        </div>
+                        <div class="linea-link">Ver más</div>
+                    </a>
+                    <a href="#cosmetica" class="linea-card">
+                        <div class="linea-image">
+                            <div class="linea-title">Línea de Cosmética</div>
+                            📸 Imagen de Cosmética<br>
+                            <small>(Placeholder)</small>
+                        </div>
+                        <div class="linea-link">Ver más</div>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-arrow" onclick="scrollToSection('sobre-alhua')"></div>
+        </section>
+
+        <!-- Sobre Alhua Section -->
+        <section class="sobre-alhua" id="sobre-alhua">
+            <div class="container">
+                <h2 class="section-title">Sobre Alhua</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🐰</div>
+                        <h3>No testeado en animales</h3>
+                        <p>Todos nuestros productos son desarrollados y probados sin causar daño a ningún animal. Creemos en la belleza ética y responsable.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h3>Libre de químicos dañinos</h3>
+                        <p>Utilizamos únicamente ingredientes naturales y orgánicos, evitando parabenos, sulfatos y otros químicos agresivos para tu piel.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✋</div>
+                        <h3>Hecho a mano</h3>
+                        <p>Cada producto es elaborado artesanalmente con técnicas tradicionales, garantizando calidad única y cuidado personal en cada creación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-arrow" onclick="scrollToSection('interes')"></div>
+        </section>
+
+        <!-- Sección de Interés -->
+        <section class="interes">
+            <div class="container">
+                <h2 class="section-title">¿Te interesa?</h2>
+                <p>Explora nuestra colección completa de productos naturales y artesanales. Encuentra la rutina de cuidado perfecta para ti con ingredientes que respetan tu piel y el medio ambiente.</p>
+                <a href="#" class="btn-catalogo">Catálogo</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alhua Natural – Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+    </script>
+</body>
+</html>
